@@ -1,0 +1,13 @@
+.blurEffect_top {
+  position: fixed;
+  top: -100px;
+  right: -50px;
+  z-index: -1;
+}
+
+.blurEffect_bottom {
+  position: fixed;
+  bottom: -100px;
+  left: -50px;
+  z-index: -1;
+}

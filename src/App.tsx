@@ -1,9 +1,17 @@
+import { BlurEffect } from './components/BlurEffect/';
+
+import './styles/styles.css';
+
 function App() {
   return (
-    <div>
+    <>
       <h2>Hello World</h2>
-    </div>
+      <BlurEffect position="top" />
+      <BlurEffect position="bottom" />
+    </>
   );
 }
 
 export default App;
+
+//text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);

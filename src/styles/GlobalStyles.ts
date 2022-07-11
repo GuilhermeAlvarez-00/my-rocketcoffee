@@ -28,5 +28,6 @@ export const GlobalStyles = createGlobalStyle`
   body {
     color: var(--text-color);
     background: var(--backgrond);
+    overflow-x: hidden;
   }
 `;
