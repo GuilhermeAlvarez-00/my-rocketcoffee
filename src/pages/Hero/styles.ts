@@ -5,7 +5,11 @@ export const Container = styled.main`
   margin: 0 auto;
   text-align: center;
 
-  h1 {
+  div.mobile {
+    display: none;
+  }
+
+  > h1 {
     text-align: center;
     margin-top: 40px;
     font-weight: 700;
@@ -21,8 +25,27 @@ export const Container = styled.main`
     }
   }
 
-  img {
+  > img {
     width: 100%;
     max-width: 798px;
+  }
+
+  @media screen and (max-width: 964px) {
+    > h1 {
+      font-size: 50px;
+    }
+
+    div.mobile {
+      display: block;
+
+      h1 {
+        font-size: 30px;
+        margin-top: 88px;
+      }
+
+      button {
+        margin: 88px auto 0;
+      }
+    }
   }
 `;

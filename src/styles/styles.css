@@ -11,3 +11,14 @@
   left: -50px;
   z-index: -1;
 }
+
+@media screen and (max-width: 964px) {
+  .blurEffect_top {
+    display: none;
+  }
+
+  .blurEffect_bottom {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

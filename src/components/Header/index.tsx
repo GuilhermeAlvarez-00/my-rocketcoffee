@@ -5,7 +5,7 @@ import imgMenuClose from '../../assets/menu-buguer-close.svg';
 import { Button } from '../Button';
 
 import { Container, Mobile } from './styles';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
