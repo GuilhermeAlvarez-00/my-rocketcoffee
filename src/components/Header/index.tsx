@@ -1,4 +1,5 @@
 import imgLogo from '../../assets/logo-desktop.svg';
+import { Button } from '../Button';
 
 import { Container } from './styles';
 
@@ -15,9 +16,7 @@ export function Header() {
         <a href="#">Lojas</a>
       </nav>
 
-      <button>
-        <a>Pegar meu café</a>
-      </button>
+      <Button />
     </Container>
   );
 }

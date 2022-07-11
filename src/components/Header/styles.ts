@@ -25,22 +25,4 @@ export const Container = styled.header`
       color: var(--button);
     }
   }
-
-  button {
-    width: 172px;
-    height: 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    border: 1px solid var(--button);
-    background: transparent;
-    text-transform: uppercase;
-    color: var(--white);
-
-    a {
-      font-weight: 900;
-      font-size: 11px;
-    }
-  }
 `;
