@@ -1,5 +1,6 @@
 import { BlurEffect } from './components/BlurEffect/';
 import { Header } from './components/Header';
+import { Hero } from './pages/Hero';
 
 import './styles/styles.css';
 
@@ -9,10 +10,9 @@ function App() {
       <BlurEffect position="top" />
       <BlurEffect position="bottom" />
       <Header />
+      <Hero />
     </>
   );
 }
 
 export default App;
-
-//text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);

@@ -14,7 +14,7 @@ export const Container = styled.button`
   transition: background 0.2s;
 
   a {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 11px;
   }
 
