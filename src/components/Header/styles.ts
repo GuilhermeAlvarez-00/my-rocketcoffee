@@ -4,9 +4,9 @@ export const Container = styled.header`
   width: min(100%, 918px);
   height: 50px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  justify-content: space-between;
   margin-top: 50px;
 
   nav {
@@ -24,5 +24,9 @@ export const Container = styled.header`
     &:hover {
       color: var(--button);
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 `;
