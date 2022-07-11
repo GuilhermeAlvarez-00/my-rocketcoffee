@@ -1,13 +1,14 @@
 import { BlurEffect } from './components/BlurEffect/';
+import { Header } from './components/Header';
 
 import './styles/styles.css';
 
 function App() {
   return (
     <>
-      <h2>Hello World</h2>
       <BlurEffect position="top" />
       <BlurEffect position="bottom" />
+      <Header />
     </>
   );
 }
