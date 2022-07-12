@@ -1,7 +1,7 @@
 # My Rocket Coffee
 
 Landing page que desenvolvi com React.js e TypeScript, sendo esse um desafio da Rocketseat.
-<img src="./src/assets/rocketcoffee.png" />
+<img src="./src/assets/rocketcoffee1.png" />
 
 ## Tecnologias
 
